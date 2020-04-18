@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace newLogin
 {
-    public partial class rmRandomCombo : Form
+    public partial class frmRandomCombo : Form
     {
-        public rmRandomCombo()
+        public frmRandomCombo()
         {
             InitializeComponent();
         }
@@ -49,6 +49,11 @@ namespace newLogin
             {
                 CmbRandom1.Items.Add(r.Next(1, 1000));
             }
+        }
+
+        private void CmbRandom1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

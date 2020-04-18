@@ -83,6 +83,7 @@
             this.Controls.Add(this.BtnGenerate);
             this.Name = "FrmRandom";
             this.Text = "Random";
+            this.Load += new System.EventHandler(this.FrmRandom_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

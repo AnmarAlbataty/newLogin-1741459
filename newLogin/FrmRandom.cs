@@ -36,5 +36,10 @@ namespace newLogin
             BtnGenerate.BackColor = Color.FromArgb(r,g,b);
 
         }
+
+        private void FrmRandom_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

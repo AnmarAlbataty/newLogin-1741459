@@ -1,6 +1,6 @@
 ﻿namespace newLogin
 {
-    partial class rmRandomCombo
+    partial class frmRandomCombo
     {
         /// <summary>
         /// Required designer variable.
@@ -53,6 +53,7 @@
             this.CmbRandom1.Name = "CmbRandom1";
             this.CmbRandom1.Size = new System.Drawing.Size(121, 28);
             this.CmbRandom1.TabIndex = 0;
+            this.CmbRandom1.SelectedIndexChanged += new System.EventHandler(this.CmbRandom1_SelectedIndexChanged);
             // 
             // CmbRandom2
             // 
@@ -72,7 +73,7 @@
             this.groupBox1.Controls.Add(this.CmbRandom1);
             this.groupBox1.Location = new System.Drawing.Point(62, 68);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(277, 236);
+            this.groupBox1.Size = new System.Drawing.Size(323, 236);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
@@ -193,7 +194,7 @@
             this.Btnback.Text = "back";
             this.Btnback.UseVisualStyleBackColor = true;
             // 
-            // rmRandomCombo
+            // frmRandomCombo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -201,7 +202,7 @@
             this.Controls.Add(this.Btnback);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Name = "rmRandomCombo";
+            this.Name = "frmRandomCombo";
             this.Text = "rmRandomCombo";
             this.Load += new System.EventHandler(this.rmRandomCombo_Load);
             this.groupBox1.ResumeLayout(false);
